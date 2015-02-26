@@ -3,10 +3,17 @@ body{
 }
 
 .banner{
+    margin: 25px 0 0 100px;
     width: 400px;
     height: 80px;
-    background-color: lightblue;
+    background-color: darkblue;
     border-radius: 10px;
+}
+
+.logo{
+  padding: 10px 0 0 20px;
+  width: 150px;
+  height: auto;
 }
 
 #search{
@@ -33,4 +40,8 @@ body{
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
+}
+
+nav{
+  display: inline-block;
 }
