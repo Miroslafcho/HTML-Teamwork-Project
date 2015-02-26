@@ -1,15 +1,35 @@
-body{
+.wrapper{
+    width: 960px;
     margin: 0px auto;
+    border:1px solid red;
+    padding: 5px;
+  }
+@font-face {
+    font-family: BlkLite;
+    src: url(BlkLite.ttf);
 }
 
 .banner{
+<<<<<<< .mine
+    font-family: BlkLite;
+    font-size: 150px;
+    width: 100%;
+    margin: 0px auto;
+    height: auto;
+=======
     margin: 25px 0 0 100px;
     width: 400px;
     height: 80px;
+>>>>>>> .r15
     background-color: darkblue;
     border-radius: 10px;
+    display: inline;
 }
-
+.banner2{
+    font-family: BlkLite;
+    font-size:100px;
+    color:white;
+}
 .logo{
   padding: 10px 0 0 20px;
   width: 150px;
