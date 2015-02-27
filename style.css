@@ -1,8 +1,13 @@
-body{
-    margin: 0px auto;
-    background-image: url("background.jpg");
-    background-size: cover;
-
+video{
+  position: fixed; 
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto; 
+  z-index: -100;
+  background-size: cover;
 }
 
 header div{
@@ -13,18 +18,18 @@ header div{
 .beerUni{
   float: right;
   height: 100px;
-  padding: 20px 20px 0 0px;
+  padding: 5px 20px 0 0px;
 }
 
 .banner{
     margin: 25px 0 0 50px;
-    width: 600px;
-    height: 140px;
+    width: 680px;
+    height: 115px;
     background-image: url("Banner/bBanner.jpg");
     border-radius: 10px;
 }
 
-.searchBarPosition{
+/*.searchBarPosition{
     margin: 40px 80px;
   position: absolute;
 }
@@ -35,7 +40,7 @@ header div{
     border: solid 3px lightgray;
     border-radius: 30px;
     
-  }
+  }*/
 
 .Logo{
     width: 60px;
@@ -47,30 +52,42 @@ header div{
 .rating {
   unicode-bidi: bidi-override;
 }
+
 .rating > span {
   display: inline-block;
   position: relative;
   width: 2em;
   color: white;
 }
+
 .rating > span:hover:before,
 .rating > span:hover ~ span:before {
    content: "\2605";
    position: absolute;
 }
 
-ul{
-    list-style-type: none;
-    margin: 0; 
-    padding: 0;
+nav>ul{
+    text-align: center;
 }
 
-a{
-    display: block;
-    width: 60px;
+@font-face{
+  font-family: drawing;
+  src: url("Fonts/DrawFont.ttf");
 }
 
- li{
-     color: white;
-     display: inline;
+nav>ul>li>a{
+  background-image: url("Banner/txtBg.png");
+  text-decoration: none;
+  border-radius: 8px;
+  width: 100px;
+  font-family: drawing;
+
+}
+
+nav>ul>li{
+    border-radius: 10px;
+    width: 100px;
+     display: inline-flex;
+     margin: 0 30px 0 30px;
+     font-size: 1.5em;
 }
