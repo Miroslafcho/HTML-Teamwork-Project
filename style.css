@@ -1,31 +1,47 @@
 body{
     margin: 0px auto;
+    background-image: url("background.jpg");
+    background-size: cover;
+
+}
+
+header div{
+  display: inline-block;
+  margin: 0 50px 0 50px;
+}
+
+.beerUni{
+  float: right;
+  height: 100px;
+  padding: 20px 20px 0 0px;
 }
 
 .banner{
-    margin: 25px 0 0 100px;
-    width: 400px;
-    height: 80px;
-    background-color: darkblue;
+    margin: 25px 0 0 50px;
+    width: 600px;
+    height: 140px;
+    background-image: url("Banner/bBanner.jpg");
     border-radius: 10px;
 }
 
-.logo{
-  padding: 10px 0 0 20px;
-  width: 150px;
-  height: auto;
+.searchBarPosition{
+    margin: 40px 80px;
+  position: absolute;
 }
 
 #search{
-    background-color: lightgray;
-    text-decoration-style: double;
-    border: solid 3px gray;
+    direction: rtl;
+    background-color: #f4f5f9;
+    border: solid 3px lightgray;
     border-radius: 30px;
-}
+    
+  }
 
 .Logo{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+    float: right;
+    margin: 0 10px;
 }
 
 .rating {
@@ -34,7 +50,8 @@ body{
 .rating > span {
   display: inline-block;
   position: relative;
-  width: 1.1em;
+  width: 2em;
+  color: white;
 }
 .rating > span:hover:before,
 .rating > span:hover ~ span:before {
@@ -42,6 +59,18 @@ body{
    position: absolute;
 }
 
-nav{
-  display: inline-block;
+ul{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+
+a{
+    display: block;
+    width: 60px;
+}
+
+ li{
+     color: white;
+     display: inline;
 }
