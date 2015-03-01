@@ -210,8 +210,8 @@ a{
     }
     .smallBeer>a>ul{
     position: absolute;
-    bottom:10px;
-    left:20%;
+    bottom:1%;
+    left:15%;
     padding:0;
     margin: 0;
     box-sizing: border-box;
