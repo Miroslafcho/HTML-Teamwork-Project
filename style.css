@@ -127,3 +127,110 @@ aside>ul>li{
   width: 15%;
   height: 50px;
 }
+/*NIKI:*/
+div.sidebar>a{
+  position: absolute;
+  top:240px;
+  right: 50px;
+
+  font-size: 3em;
+  color: white;
+  font-family: impact;
+  text-align: center;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+
+  text-shadow:
+  1px 1px 0 #CCC,
+  2px 2px 0 #CCC,
+  3px 3px 0 #444,
+  4px 4px 0 #444,
+  5px 5px 0 #444,
+  6px 6px 0 #444;
+}
+div.sidebar>a>ul>li, .middle{
+  list-style: none;
+  display: inline-block;
+}
+div.sidebar>a>ul{
+    padding:0;
+    margin: 0;
+}
+.beer{
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  margin: 40px 10px;
+
+}
+.break{
+  word-wrap:break-word;
+  width: 30px;
+}
+.orange{
+  color:#f6dc61;
+  /*visibility: hidden;*/
+}
+
+.sidebar>a :hover{
+  color:#f6dc61;
+  
+}
+.sidebar:hover .orange{
+  visibility: visible;
+  color:white;
+  -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2); 
+}
+.sidebar:hover .beer{
+  visibility: hidden;
+}
+a{
+  text-decoration: none;
+}
+@media screen and (min-width: 900px) {
+    .smallBeer{
+      display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .sidebar {
+        display: none;
+    }
+    .smallBeer>a>ul{
+    position: absolute;
+    bottom:1%;
+    left:15%;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    white-space: nowrap;
+    
+    color: white;
+    font-size: 2.5em;
+    font-family: impact;
+    text-shadow:
+    1px 1px 0 #CCC,
+    2px 2px 0 #CCC,
+    3px 3px 0 #444,
+    4px 4px 0 #444,
+    5px 5px 0 #444,
+    6px 6px 0 #444;
+  }
+  .smallBeer>a>ul>li{
+    list-style: none;
+    display: inline-block;
+
+  }
+  .smallBeer>a>ul>li:hover{
+    color:#f6dc61;
+    
+  }
+  .smallBeerPic{
+    width: 60px;
+    height: 60px;
+    margin-bottom: -17px;
+  }
+}
+
+/*NIKI*/
