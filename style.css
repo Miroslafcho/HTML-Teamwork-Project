@@ -15,39 +15,27 @@ header div{
   margin: 0 50px 0 50px;
 }
 
+.banner{
+  margin: 25px 0 0 50px;
+  width: 680px;
+  height: 115px;
+  background-image: url("Banner/bBanner.jpg");
+  border-radius: 10px;
+}
+
 .beerUni{
   float: right;
   height: 100px;
   padding: 5px 20px 0 0px;
 }
 
-.banner{
-    margin: 25px 0 0 50px;
-    width: 680px;
-    height: 115px;
-    background-image: url("Banner/bBanner.jpg");
-    border-radius: 10px;
-}
-
-/*.searchBarPosition{
-    margin: 40px 80px;
-  position: absolute;
-}
-
-#search{
-    direction: rtl;
-    background-color: #f4f5f9;
-    border: solid 3px lightgray;
-    border-radius: 30px;
-    
-  }*/
-
 .Logo{
-    width: 60px;
-    height: 60px;
-    float: right;
-    margin: 0 10px 20px 10px;
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin: 0 10px 20px 10px;
 }
+
 .Youtube{
   background: url("logo/YouTubeLogo.png");
   background-size: 100%;
@@ -94,17 +82,25 @@ header div{
 
 .rating > span:hover:before,
 .rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
+  content: "\2605";
+  position: absolute;
 }
 
 nav>ul{
-    text-align: center;
+  text-align: center;
 }
 
 @font-face{
   font-family: drawing;
   src: url("Fonts/DrawFont.ttf");
+}
+
+nav>ul>li{
+  border-radius: 10px;
+  width: 100px;
+  display: inline-flex;
+  margin: 0 30px 0 30px;
+  font-size: 1.5em;
 }
 
 nav>ul>li>a{
@@ -116,13 +112,6 @@ nav>ul>li>a{
 
 }
 
-nav>ul>li{
-    border-radius: 10px;
-    width: 100px;
-     display: inline-flex;
-     margin: 0 30px 0 30px;
-     font-size: 1.5em;
-}
 
 aside{
   padding-top: 50px;
