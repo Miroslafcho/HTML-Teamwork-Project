@@ -118,21 +118,56 @@ aside{
 }
 
 aside>ul>li{
+  background-image: url("Banner/aside.png");
+  background-position: top;
+  background-repeat: no-repeat;
   list-style-type: none;
   color: white;
   border: solid 3px #FF9606;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   border-radius: 10px;
-  box-shadow: 0px 0px 40px #FED966;
+  -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+  -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+  box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
   text-align: center;
   width: 15%;
   height: 50px;
+  margin-bottom: 7px;
+  -webkit-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  -ms-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  transition: all .1s ease;
 }
 
+<<<<<<< HEAD
 .center-content{
     background-color: gray;
     width: 500px;
     height: 700px;
 }
+=======
+aside>ul>li>a{
+  text-decoration: none;
+  line-height: 50px;
+  font-family: drawing;
+  font-size: 1.8em;
+  font-style: italic;
+  text-align: center;
+}
+
+aside>ul>li:active{
+  -webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+  -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+  box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+
+>>>>>>> fd230865612fc4f1dc54a1a30228c0b3b56be2ce
 /*NIKI:*/
 div.sidebar>a{
   position: absolute;
