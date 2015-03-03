@@ -7,8 +7,6 @@ video{
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
-  width: auto; 
-  height: auto; 
   z-index: -100;
   background-size: cover;
 }
@@ -121,6 +119,11 @@ aside{
 }
 
 aside>ul>li{
+text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  overflow: hidden;
+  
   background-image: url("Banner/aside.png");
   background-position: top;
   background-repeat: no-repeat;
@@ -146,9 +149,8 @@ aside>ul>li{
 
 aside>ul>li>a{
   text-decoration: none;
-  line-height: 50px;
   font-family: drawing;
-  font-size: 1.8em;
+  font-size: 1.3em;
   font-style: italic;
   text-align: center;
 }
@@ -270,21 +272,20 @@ a{
       display: none;
     }
   body{
-    background: url('Banner/BeerStock.gif')no-repeat;
+    background: url('banner/background.jpg')no-repeat;
     background-size: 100%;
   }
 }
 /*NIKI*/
   
 .center-contain{
-    width: 40%;
-    height: 30%;
-    position: absolute;
-    left: 300px;
-    top: 300px;
-}
-
+	width: 40%;
+	height: 30%;
+	position: absolute;
+	left: 300px;
+	top: 270px;
+    
 footer{
-  border:;
-  width: 300;
+    background-image: url("Banner/footer.png");
+    background-size: 100%;
 }
