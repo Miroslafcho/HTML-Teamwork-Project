@@ -141,13 +141,6 @@ aside>ul>li{
   transition: all .1s ease;
 }
 
-<<<<<<< HEAD
-.center-content{
-    background-color: gray;
-    width: 500px;
-    height: 700px;
-}
-=======
 aside>ul>li>a{
   text-decoration: none;
   line-height: 50px;
@@ -166,8 +159,6 @@ aside>ul>li:active{
   left: 0;
 }
 
-
->>>>>>> fd230865612fc4f1dc54a1a30228c0b3b56be2ce
 /*NIKI:*/
 div.sidebar>a{
   position: absolute;
