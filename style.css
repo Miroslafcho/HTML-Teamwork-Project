@@ -159,6 +159,19 @@ aside>ul>li:active{
   left: 0;
 }
 
+script{
+  border:3px solid black;
+}
+
+main{
+    border: 2px solid yellow;
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 370px;
+    top: 300px;
+}
+
 /*NIKI:*/
 div.sidebar>a{
   position: absolute;
@@ -264,5 +277,5 @@ a{
     margin-bottom: -17px;
   }
 }
-
 /*NIKI*/
+  
