@@ -270,21 +270,15 @@ a{
       display: none;
     }
   body{
-    background: url('Banner/BeerStock.gif')no-repeat;
+    background: url('banner/background.jpg')no-repeat;
     background-size: 100%;
   }
 }
 /*NIKI*/
   
 .center-contain{
-    width: 40%;
-    height: 30%;
-    position: absolute;
-    left: 300px;
-    top: 300px;
-}
-
-footer{
-  border:;
-  width: 300;
-}
+	width: 40%;
+	height: 30%;
+	position: absolute;
+	left: 300px;
+	top: 270px;
