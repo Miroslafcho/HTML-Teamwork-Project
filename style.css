@@ -249,7 +249,7 @@ a{
     }
     .smallBeer>a>ul{
     position: absolute;
-    bottom:1%;
+    /*bottom:1%;*/
     left:15%;
     padding:0;
     margin: 0;
