@@ -283,9 +283,13 @@ a{
 	height: 30%;
 	position: absolute;
 	left: 300px;
+<<<<<<< HEAD
 	top: 270px;
     
 footer{
     background-image: url("Banner/footer.png");
     background-size: 100%;
 }
+=======
+	top: 270px;
+>>>>>>> 01480d50fa417182ff2913c9ee18ff60b0416577
