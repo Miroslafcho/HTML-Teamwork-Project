@@ -121,7 +121,22 @@ nav>ul>li>a{
   border-radius: 8px;
   width: 100px;
   font-family: drawing;
-  
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+
+nav>ul>li:hover a{
+  background-image: url("Banner/invert.png");
+  color: #F9D005;
+
+  -webkit-transform: translate3d(80px, 80px, 80px);
+  -moz-transform: translate3d(10px, 10px, 10px);
+  -ms-transform: translate3d(10px, 10px, 10px);
+  -o-transform: translate3d(10px, 10px, 10px);
+  transform: scale(1.8);
 }
 
 
